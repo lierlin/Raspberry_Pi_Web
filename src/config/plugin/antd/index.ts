@@ -15,8 +15,9 @@ import {
 export default (app: any) => {
   //全局组件iocn
   const IconFont = createFromIconfontCN({
-    scriptUrl: "//at.alicdn.com/t/font_2562646_s9rayb1nidf.js",
+    scriptUrl: "//at.alicdn.com/t/font_2562646_mc6wiwmugp.js",
   });
+
   app.component("IconFont", IconFont);
   app.use(Button);
   app.use(Layout);

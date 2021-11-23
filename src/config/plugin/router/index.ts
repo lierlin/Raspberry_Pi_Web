@@ -4,7 +4,7 @@ import Home from "@/views/Home.vue";
 //#region import
 
 const Ioc = () => import("@/views/Ioc.vue");
-const About = () => import("@/views/About.vue");
+const Alarmlamp = () => import("@/views/Alarmlamp.vue");
 const BasicLayout = () => import("@/components/layouts/BasicLayout.vue");
 //#endregion
 
@@ -32,9 +32,9 @@ const routes: Array<RouteRecordRaw> = [
   },
 
   {
-    path: "/about",
-    name: "About",
-    component: About,
+    path: "/Alarmlamp",
+    name: "Alarmlamp",
+    component: Alarmlamp,
   },
 ];
 
