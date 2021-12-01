@@ -10,7 +10,8 @@ import {
   Col,
   Form,
   Switch,
-  Radio
+  Radio,
+  Collapse,
 } from "ant-design-vue";
 export default (app: any) => {
   //全局组件iocn
@@ -29,5 +30,6 @@ export default (app: any) => {
   app.use(Form);
   app.use(Switch);
   app.use(Radio);
+  app.use(Collapse);
   
 };

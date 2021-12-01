@@ -10,6 +10,13 @@ export function LedOption(parameter: {
     url: `Led/LedOption`,
   });
 }
+export function MorseCode(parameter: { morseMsg: string }) {
+  return service({
+    method: "post",
+    params: parameter,
+    url: `Led/MorseCode`,
+  });
+}
 
 /* //TODO 登陆接口
 export function Login(parameter) {
